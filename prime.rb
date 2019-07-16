@@ -1,5 +1,5 @@
 # Add  code here!
-def prime?(number.integer)
+def prime?(number)
   array = [2..number-1]
   array.map {|factors| number%factors == 0}
   if array.size == 0
