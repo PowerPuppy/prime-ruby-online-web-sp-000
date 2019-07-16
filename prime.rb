@@ -4,6 +4,6 @@ def prime?(number.integer)
   array.map {|factors| number%factors == 0}
   if array.size == 0
     "Prime"
-  else 
+  else
     "Not Prime"
 end
