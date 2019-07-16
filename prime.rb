@@ -1,11 +1,7 @@
 # Add  code here!
-def prime?(number)
-  array = [2..number-1]
-  array.map {|factors| number%factors == 0}
-  if array.size == 0
-    True
-  else
-    False
+def prime?(n)
+  if n < 2
+    return false
   end
-
+  (2...n).to_a.any? {|num| n % num == 0 } ? false : true
 end
