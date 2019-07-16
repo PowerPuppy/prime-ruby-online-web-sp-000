@@ -6,4 +6,6 @@ def prime?(number.integer)
     "Prime"
   else
     "Not Prime"
+  end
+
 end
